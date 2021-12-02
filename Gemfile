@@ -6,7 +6,6 @@ ruby '~> 2.7.1'
 
 gem 'rails', '~> 7.0.0.alpha'
 
-gem 'activerecord-sqlserver-adapter', git: 'https://github.com/omohokcoj/activerecord-sqlserver-adapter', require: false
 gem 'ar_lazy_preload'
 gem 'audited'
 gem 'aws-sdk-s3'
@@ -23,7 +22,6 @@ gem 'oj'
 gem 'pg', '1.2.3', require: false
 gem 'puma'
 gem 'sqlite3'
-gem 'tiny_tds', '2.1.5', require: false
 gem 'tzinfo-data'
 gem 'webpacker'
 

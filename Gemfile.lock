@@ -9,14 +9,6 @@ GIT
       responders
       warden (~> 1.2.3)
 
-GIT
-  remote: https://github.com/omohokcoj/activerecord-sqlserver-adapter
-  revision: e1c5dff05828f4a8e30ae726187bdd930d995ad1
-  specs:
-    activerecord-sqlserver-adapter (6.1.2.1)
-      activerecord
-      tiny_tds
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -265,7 +257,6 @@ GEM
       sprockets (>= 3.0.0)
     sqlite3 (1.4.2)
     thor (1.1.0)
-    tiny_tds (2.1.5)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
     tzinfo-data (1.2021.5)
@@ -295,7 +286,6 @@ PLATFORMS
   x86_64-darwin-20
 
 DEPENDENCIES
-  activerecord-sqlserver-adapter!
   ar_lazy_preload
   audited
   aws-sdk-s3
@@ -323,7 +313,6 @@ DEPENDENCIES
   rubocop-rspec
   spring
   sqlite3
-  tiny_tds (= 2.1.5)
   tzinfo-data
   web-console
   webpacker
