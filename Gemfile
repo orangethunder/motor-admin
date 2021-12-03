@@ -20,7 +20,8 @@ gem 'mysql2', '0.5.3', require: false
 gem 'net_http_ssl_fix', require: 'net_http_ssl_fix'
 gem 'oj'
 gem 'pg', '1.2.3', require: false
-gem 'puma'
+gem 'puma', '4.3.3' #, groups: [:development, :test]
+gem 'nio4r', '2.5.2'
 gem 'sqlite3'
 gem 'tzinfo-data'
 gem 'webpacker'
